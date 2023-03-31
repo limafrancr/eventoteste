@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Concert+One & family= Oswald:wght@331;400 & family= Poppins:ital,wght@ 0,400;0,600;0,700;1,900 & family= Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700 & display=swap');
+
+
+body{
+    background: rgb(44,52,92);
+    background: radial-gradient(circle, rgba(44,52,92,1) 3%, rgba(26,57,80,1) 100%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block; /* tudo na mesma linha*/
+    margin: 20px; /*magem do elemento*/
+    font-weight: bold;
+}
+
+.li.hover{
+    border-color: aqua;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #3af491 ;
+    transition: 0.3s all;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 36px; /*Determina a dimensão de progressão de bloco da área de conteúdo de texto de uma caixa embutida.*/
+    font-family: 'Roboto', sans-serif;
+
+}
+
+span{
+    color: #3af491;
+}
+
+p{
+    line-height: 20px;
+    max-width: 600px;
+    font-weight: bolder;
+}
+
+img{
+    width: 600px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+#enviar{
+    height: 20px;
+    width: 50%;
+    background-color: #3af491;
+    color: white;
+    font-weight: bold;
+    padding:20px;
+    cursor: pointer;
+}
+
+   
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 17px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ffffff;
+    border-radius:20px;
+}
